@@ -30,11 +30,11 @@ window.addEventListener("scroll", function () {
   const navbar = document.querySelector(".custom-navbar");
   if (navbar) {
     if (window.scrollY > 50) {
-      navbar.style.background = "rgba(27, 94, 150, 0.98)";
+      navbar.style.background = "#6355a8ff";
       navbar.style.backdropFilter = "blur(15px)";
       navbar.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.1)";
     } else {
-      navbar.style.background = "rgba(27, 94, 150, 0.95)";
+      navbar.style.background = "#6355a8ff";
       navbar.style.backdropFilter = "blur(10px)";
       navbar.style.boxShadow = "none";
     }
