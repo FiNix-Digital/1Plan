@@ -95,226 +95,66 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <!-- Contact Form -->
-          <div class="col-lg-8 mb-5" data-aos="fade-right">
-            <div class="contact-form-container">
-              <h2>Send us a Message</h2>
-              <p class="text-muted mb-4">
-                Fill out the form below and our counselors will get back to you
-                within 24 hours.
-              </p>
+   <!-- Contact Section -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <div class="row g-4">
+      <!-- Contact Info -->
+     <!-- Contact Info Cards -->
+<div class="contact-info-grid row g-4" data-aos="fade-up">
+  <!-- Phone -->
+  <div class="col-12 col-md-6 col-lg-6">
+    <div class="contact-box">
+      <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+      <div class="contact-details">
+        <h5>Phone</h5>
+        <p><a href="tel:+919553053852">+91-95530-53852</a></p>
+        <small>Available 24/7</small>
+      </div>
+    </div>
+  </div>
 
-              <form id="contactForm" class="contact-form">
-                <div class="row">
-                  <div class="col-md-6 mb-3">
-                    <label for="firstName" class="form-label"
-                      >First Name *</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="firstName"
-                      name="firstName"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <label for="lastName" class="form-label">Last Name *</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="lastName"
-                      name="lastName"
-                      required
-                    />
-                  </div>
-                </div>
+  <!-- Email -->
+  <div class="col-12 col-md-6 col-lg-6">
+    <div class="contact-box">
+      <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+      <div class="contact-details">
+        <h5>Email</h5>
+        <p><a href="mailto:finix.digital.solution@gmail.com">finix.digital.solution@gmail.com</a></p>
+        <small>We reply within 6 hours</small>
+      </div>
+    </div>
+  </div>
 
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email Address *</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    name="email"
-                    required
-                  />
-                </div>
+  <!-- WhatsApp -->
+  <div class="col-12 col-md-6 col-lg-6">
+    <div class="contact-box">
+      <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+      <div class="contact-details">
+        <h5>WhatsApp</h5>
+        <p><a href="https://wa.me/919553053852" target="_blank">+91-95530-53852</a></p>
+        <small>Quick response guaranteed</small>
+      </div>
+    </div>
+  </div>
 
-                <div class="row">
-                  <div class="col-md-6 mb-3">
-                    <label for="courseInterested" class="form-label"
-                      >Course Interested *</label
-                    >
-                    <select
-                      class="form-select"
-                      id="courseInterested"
-                      name="courseInterested"
-                      required
-                    >
-                      <option value="">Select Course</option>
-                      <option value="iit-jee">IIT-JEE Main & Advanced</option>
-                      <option value="neet">NEET (Medical)</option>
-                      <option value="eamcet">EAMCET (State CET)</option>
-                      <option value="foundation">Foundation (8th-10th)</option>
-                      <option value="olympiad">Olympiad Preparation</option>
-                      <option value="online">Online Live Classes</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <label for="currentClass" class="form-label"
-                      >Current Class/Status</label
-                    >
-                    <select
-                      class="form-select"
-                      id="currentClass"
-                      name="currentClass"
-                    >
-                      <option value="">Select Class</option>
-                      <option value="8th">8th Class</option>
-                      <option value="9th">9th Class</option>
-                      <option value="10th">10th Class</option>
-                      <option value="11th">11th Class</option>
-                      <option value="12th">12th Class</option>
-                      <option value="12th-pass">12th Passed</option>
-                      <option value="dropper">Dropper</option>
-                      <option value="parent">Parent Inquiry</option>
-                    </select>
-                  </div>
-                </div>
+  <!-- Address -->
+  <div class="col-12 col-md-6 col-lg-6">
+    <div class="contact-box">
+      <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+      <div class="contact-details">
+        <h5>Address</h5>
+        <p>
+          Elite Academy<br />
+          123 Education Street<br />
+          Mumbai, Maharashtra 400001<br />
+          India
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
-                <div class="mb-3">
-                  <label for="message" class="form-label">Message *</label>
-                  <textarea
-                    class="form-control"
-                    id="message"
-                    name="message"
-                    rows="5"
-                    placeholder="Tell us about your goals, questions, or any specific requirements..."
-                    required
-                  ></textarea>
-                </div>
-
-                <div class="mb-3">
-                  <label for="preferredContact" class="form-label"
-                    >Preferred Contact Method</label
-                  >
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="contactMethod"
-                      id="contactEmail"
-                      value="email"
-                      checked
-                    />
-                    <label class="form-check-label" for="contactEmail"
-                      >Email</label
-                    >
-                  </div>
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="contactMethod"
-                      id="contactWhatsapp"
-                      value="whatsapp"
-                    />
-                    <label class="form-check-label" for="contactWhatsapp"
-                      >WhatsApp</label
-                    >
-                  </div>
-                </div>
-
-                <div class="mb-3">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="newsletter"
-                      name="newsletter"
-                    />
-                    <label class="form-check-label" for="newsletter">
-                      Subscribe to our newsletter for exam updates and tips
-                    </label>
-                  </div>
-                </div>
-
-                <button type="submit" class="btn btn-primary btn-lg">
-                  <i class="fas fa-paper-plane me-2"></i>Send Message
-                </button>
-              </form>
-            </div>
-          </div>
-
-          <!-- Contact Information -->
-          <div class="col-lg-4" data-aos="fade-left">
-            <div class="contact-info">
-              <h3>Contact Information</h3>
-              <p class="text-muted mb-4">
-                Get in touch with us through any of the following methods
-              </p>
-
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-phone-alt"></i>
-                </div>
-                <div class="contact-details">
-                  <h5>Phone Number</h5>
-                  <p><a href="tel:+919553053852">+91-95530-53852</a></p>
-                  <small>Available 24/7 for support</small>
-                </div>
-              </div>
-
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-envelope"></i>
-                </div>
-                <div class="contact-details">
-                  <h5>Email Address</h5>
-                  <p>
-                    <a href="mailto:finix.digital.solution@gmail.com"
-                      >finix.digital.solution@gmail.com</a
-                    >
-                  </p>
-                  <small>We reply within 6 hours</small>
-                </div>
-              </div>
-
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-map-marker-alt"></i>
-                </div>
-                <div class="contact-details">
-                  <h5>Address</h5>
-                  <p>
-                    Elite Academy<br />
-                    123 Education Street<br />
-                    Mumbai, Maharashtra 400001<br />
-                    India
-                  </p>
-                </div>
-              </div>
-
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fab fa-whatsapp"></i>
-                </div>
-                <div class="contact-details">
-                  <h5>WhatsApp</h5>
-                  <p>
-                    <a href="https://wa.me/919553053852" target="_blank"
-                      >+91-95530-53852</a
-                    >
-                  </p>
-                  <small>Quick responses available</small>
-                </div>
-              </div>
 
               <!-- Quick Actions -->
               <div class="quick-actions mt-4">
@@ -478,7 +318,7 @@
         <div class="footer-bottom">
           <p>
             &copy; 2024 Elite Academy. All rights reserved. | Designed by
-            <a target="_blank" href="http://finixdigital.rf.gd/"
+            <a target="_blank" href="http://finixdigital.netlify.app/"
               >FiNix Digital</a
             >
           </p>
@@ -486,83 +326,7 @@
       </div>
     </footer>
 
-    <!-- Premium Right Sidebar -->
-    <div class="premium-sidebar" id="premiumSidebar">
-      <div class="sidebar-header">
-        <h5><i class="fas fa-graduation-cap me-2"></i>Quick Actions</h5>
-        <button class="sidebar-close" onclick="closeSidebar()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="sidebar-content">
-        <div class="quick-action-item">
-          <i class="fas fa-phone-alt"></i>
-          <div>
-            <h6>Call Us Now</h6>
-            <p>Get instant support</p>
-            <a href="tel:+919553053852" class="btn btn-sm btn-primary"
-              >Call Now</a
-            >
-          </div>
-        </div>
-        <div class="quick-action-item">
-          <i class="fab fa-whatsapp"></i>
-          <div>
-            <h6>WhatsApp Chat</h6>
-            <p>Quick responses</p>
-            <a
-              href="https://wa.me/919553053852"
-              class="btn btn-sm btn-success"
-              target="_blank"
-              >Chat Now</a
-            >
-          </div>
-        </div>
-        <div class="quick-action-item">
-          <i class="fas fa-envelope"></i>
-          <div>
-            <h6>Email Us</h6>
-            <p>Detailed inquiries</p>
-            <a
-              href="mailto:finix.digital.solution@gmail.com"
-              class="btn btn-sm btn-secondary"
-              >Email Now</a
-            >
-          </div>
-        </div>
-        <div class="quick-action-item">
-          <i class="fas fa-calendar-alt"></i>
-          <div>
-            <h6>Book Demo</h6>
-            <p>Free trial class</p>
-            <button
-              class="btn btn-sm btn-outline-primary"
-              data-bs-toggle="modal"
-              data-bs-target="#demoModal"
-            >
-              Book Now
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Sidebar Overlay -->
-    <div
-      class="sidebar-overlay"
-      id="sidebarOverlay"
-      onclick="closeSidebar()"
-    ></div>
-
-    <!-- Sidebar Toggle Button -->
-    <button class="sidebar-toggle" onclick="openSidebar()">
-      <i class="fas fa-bars"></i>
-    </button>
-
-    <!-- Call Float Button -->
-    <a href="tel:+919553053852" class="call-float" title="Call Us">
-      <i class="fas fa-phone-alt"></i>
-    </a>
+  
 
     <!-- Demo Modal -->
     <div class="modal fade" id="demoModal" tabindex="-1">

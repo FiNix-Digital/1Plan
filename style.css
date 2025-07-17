@@ -37,7 +37,6 @@
   --spacing-xxl: 64px;
 }
 
-
 /* Global Styles */
 * {
   margin: 0;
@@ -511,81 +510,75 @@ p {
 }
 
 /* Contact Styles */
-.contact-form-container {
-  background: var(--white);
-  border-radius: 15px;
-  padding: var(--spacing-xl);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.contact-info {
-  background: var(--white);
-  border-radius: 15px;
-  padding: var(--spacing-xl);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  height: fit-content;
-}
-
-.contact-item {
+.contact-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
   display: flex;
-  gap: var(--spacing-sm);
-  margin-bottom: var(--spacing-lg);
+  align-items: flex-start;
+  gap: 16px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.contact-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
 }
 
 .contact-icon {
-  width: 50px;
-  height: 50px;
-  background: var(--primary-gradient);
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
+  background: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--white);
+  color: white;
+  font-size: 1.2rem;
   flex-shrink: 0;
 }
 
 .contact-details h5 {
-  margin-bottom: var(--spacing-xs);
-}
-
-.contact-details p {
   margin-bottom: 4px;
+  font-weight: 600;
 }
 
+.contact-details p,
 .contact-details a {
-  color: var(--primary-color);
+  margin: 0;
+  color: var(--dark);
+  font-size: 1rem;
   text-decoration: none;
 }
 
-.contact-details a:hover {
-  color: var(--secondary-color);
-}
-
 .contact-details small {
-  color: var(--dark-gray);
+  color: gray;
+  font-size: 0.85rem;
 }
 
 .social-icons {
   display: flex;
-  gap: var(--spacing-sm);
+  gap: 12px;
 }
 
 .social-icon {
-  width: 40px;
-  height: 40px;
-  background: var(--light-gray);
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
+  background: var(--light-gray);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--primary-color);
-  text-decoration: none;
+  font-size: 1rem;
   transition: all 0.3s ease;
 }
 
 .social-icon:hover {
   background: var(--primary-color);
-  color: var(--white);
+  color: white;
   transform: translateY(-2px);
 }
 
